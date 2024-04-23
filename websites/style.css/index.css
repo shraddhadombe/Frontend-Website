@@ -1,0 +1,343 @@
+        body{
+            background-color: rgba(250, 238, 238, 0.925);
+        }
+
+        header{
+            height: 100%;
+    
+        }
+
+        .navbar{
+            border:0px solid black;
+            width: 96%;
+            height: 50px;
+            padding-top: 20px;
+        }
+
+        .navbar li{
+            position: relative;
+            left: 450px;
+            top: -600px;
+            list-style-type: none;
+            text-align: center; 
+            display: inline-block;
+        }
+
+        .navbar a{
+
+            color: white;
+            text-decoration-line: none;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        header h1{
+            position: absolute;
+            color: white;
+            top: 20px;
+            left: 60px
+        }
+
+        header img{
+            height: 600px;
+            width: 100%;
+        }
+
+        a:hover{
+            color: blue;
+        }
+        
+
+        /*..................................about...........................................*/
+        
+        .about{
+            border: 1px solid  rgba(250, 238, 238, 0.925);
+            height: 600px;
+            position: relative;
+            top: -70px;
+            background-color: rgba(250, 238, 238, 0.925);
+           /* display: inline-block;*/
+            /*display: flex;
+            justify-content: center;*/
+        }
+
+        .about h3{
+            position: relative;
+            top: 10px;
+            /*left: 500px;*/
+            text-align: center;
+            font-size: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 900;
+        }
+
+        .about img{
+            position: relative;
+            top: 50px;
+            height:350px;
+            width: 35%;
+            padding-left:20px; 
+            /*border: 1px solid black;*/
+            border-radius: 10px;
+
+        }
+        .about p{
+            position: relative;
+            top: -300px;
+            left: 500px;
+            font-size: 20px;
+            padding-left: 20px; 
+         }
+
+         /*...............................service............................................*/
+        
+        .services{
+            display: flex;
+            flex-wrap: wrap;
+
+            border: 1px solid  rgba(250, 238, 238, 0.925);
+            background-color:  rgba(250, 238, 238, 0.925);
+        }
+
+        .services h2{
+            position: relative;
+            top:0px;
+            left: 570px;
+            /*text-align: center;*/
+
+            font-size: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 900;
+        }
+
+         .services h3{
+            position: relative;
+            top: -200px;
+            text-align: center;
+            font-size: 30px;
+            left: 70px;
+        }
+
+        .serve {
+            /*border: 1px solid black;*/
+            position: relative;
+            /*top: 20px;*/
+            /*left: 20px;*/ 
+            /*height: 250px;
+            width: 20%;*/
+            /*display: flex;
+            flex-wrap: wrap;*/
+        }
+
+        .serve img{
+            position: relative;
+            top: 50px;
+            left: 30px;
+            border-radius: 5px;
+        }
+
+        .serve p{
+            position: relative;
+            left: 370px;
+            top: -190px; 
+            font-size: 17px;    
+        }
+
+        .serve h3{
+            position: relative;
+            left: 70px;
+
+        }
+         #h3{
+            position: relative;
+            left: 110px;
+         }
+
+        /*................................gallary............................................*/
+        
+        .gallary{
+            border: 1px solid rgba(250, 238, 238, 0.925);
+            background-color: rgba(250, 238, 238, 0.925);
+            height: 900px;
+            /*display: flex;
+            flex-wrap: wrap;
+            justify-content: center;*/
+        }
+
+        .gallary h3{
+            text-align: center;
+            position: relative;
+            top: 10px;
+            font-size: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 900;
+            padding-bottom: 40px;
+
+        }
+        .gallary img{
+
+            position: relative;
+            top: 20px;
+            left: 80px;
+            /*border-radius: 25px;*/
+            height: 300px;
+            width: 26%;
+            padding: 25px 0 0 25px;
+        }
+        /*......................................Blog.........................................*/
+        .blog{
+            border: 1px solid  rgba(250, 238, 238, 0.925);
+            height: 1200px;
+            background-color: rgba(250, 238, 238, 0.925);
+        }
+
+        .blog h2{
+            text-align: center;
+            position: relative;
+            top: 20px;
+            font-size: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 900;
+        }
+
+        .blog h3{
+            text-align: center;
+            position: relative;
+            top: 20px;
+        }
+
+        .box{
+            border: 1px solid black;
+            background-color: rgba(252, 249, 249, 0.925);
+            position: relative;
+            display:inline-block;
+            margin: 15px 10px 15px 10px;
+            height: 465px;
+            width: 30%;
+            left: 40px;
+            top: 50px;
+            /*display: flex;
+            flex-wrap: wrap;
+        */}
+
+        #img1,#img2,#img4,#img5,#img6{
+            padding:20px 20px 0px 20px;
+            width: 350px;
+        }
+
+        #img3{
+            padding:40px 20px 0px 20px;
+            width: 350px;
+        }
+        
+        .box h3{
+            position: relative;
+            top: -10px;
+            left: -35px;
+        }
+
+        .box p{
+            position: relative;
+            top: -10px;
+            left: 22px;
+            color: black;   
+        }
+
+        .box a{
+            position: relative;
+            top: -10px;
+            left: 22px;
+            color: blue;
+            text-decoration-color: blue;
+        }
+       
+        /*...............................Contact us.................................*/
+        
+        .contact{
+            border: 1px solid  rgba(250, 238, 238, 0.925);
+            background-color: rgba(250, 238, 238, 0.925);
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 60px;
+            height: 800px;
+        }
+
+        .contact h3{
+            position: relative;
+            top: -20px;
+            text-align:center; 
+            font-size: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 900;
+            left: 545px;
+        }
+        
+        .map{
+            position: relative;
+            top: 130px;
+            left: -90px;
+        }
+
+        .icons i{
+            font-size: 20px;
+            position: relative;
+            top: 130px;
+            left: -30px;    
+        }
+
+        .icons p{
+            position: relative;
+            top: 80px;
+            font-size: 17px;
+        }
+
+        .icons h4{
+            position: relative;
+            top: 90px;
+        }
+
+        .form{
+            position: relative;
+            top: -90px;
+            background-color:  rgba(250, 238, 238, 0.925);
+            /*border: 1px solid black;*/
+            height: 400px;   
+        }
+
+        .form input{
+            position: relative;
+            top: 10px;
+            left: 200px;
+            text-align: left;
+            height: 50px;
+            width:30%;
+            padding:10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .form textarea{
+            position: relative;
+            text-align: left;
+            padding: 10px;
+            top:-260px;
+            left: 650px;
+            height: 240px;
+            width:30%;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .form button{
+            position: relative;
+            top: -170px;
+            left: 180px;
+            height: 40px;
+            width: 100px;
+            border-radius: 25px;
+        }
+        
+        button:hover{
+            color:blue;
+        }
